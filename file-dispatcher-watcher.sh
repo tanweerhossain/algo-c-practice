@@ -30,7 +30,7 @@ do
 	then
 		stat -x src/* > .end;
 		
-		for f in src/*c++; 
+		for f in src/*;
 		do 
     	docker cp $f $app_name:/app/src/;
 		done

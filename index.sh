@@ -21,11 +21,11 @@ done;
 
 list_of_output_files=($(ls $out_dir))
 
-echo -e "\n*\n*\n*\n*Rebuilding ...\n*\n*\n*"
+echo -e "\n*\n*\n*\n* ... Rebuilding ...\n*\n*\n*"
 
 for file_name in "${list_of_output_files[@]}";
 do
-  echo "O/P <$file_name.c++>"
+  echo "O/P <$file_name>"
   ./$out_dir/$file_name
   echo -e "\n\n"
 done;
