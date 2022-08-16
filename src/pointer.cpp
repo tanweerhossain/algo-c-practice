@@ -4,15 +4,12 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-  int a = 10;
-  int *pointer = &a;
+  int *pointer;
+  int size = 5;
 
-  cout << *pointer;
+  pointer = new int[size];
 
-  int A[] = {1, 2, 3};
-  int *pointerA = A;
-
-  cout << pointerA[0] << " " << sizeof(pointerA) / sizeof(int);
+  cout << sizeof(pointer);
 
   return 0;
 }
