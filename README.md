@@ -25,9 +25,10 @@
 ├── file-dispatcher-watcher.sh
 ├── index.sh
 └── src
-    ├── first-file.c++
-    ├── main.c++
-    └── second-file.c++
+    ├── array-as-parameter.cpp
+    ├── array.cpp
+    ├── pointer-to-structure.cpp
+    └── pointer.cpp
 
-1 directory, 9 files
+1 directory, 10 files
 ```
